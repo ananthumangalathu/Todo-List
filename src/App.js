@@ -1,11 +1,14 @@
+import React from 'react';
 import './App.css';
-import todoList from './components/todoList/todoList';
+import TodoSection from './Components/Compleated/TodoSection';
+import TodoList from './Components/TodoList/TodoList';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <todoList/>
+      <TodoList/>
+      <TodoSection/>
     </div>
   );
 }
