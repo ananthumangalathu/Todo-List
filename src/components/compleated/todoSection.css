@@ -1,22 +1,50 @@
+.main{
+    display: flex;
+    
+}
 .container{
-    background-color: aliceblue;
-    background-color:rgba(0,0,0,.5);
+    background-color:rgba(255, 255, 255, 0.5);
     border: 2px;
     border-radius: 5px;
     width: 400px;
     height: 500px;
-    
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
     color: aliceblue;
 }
+.compleated{
+    background-color:rgb(0, 255, 0,.5);
+    border: 2px;
+    border-radius: 5px;
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: auto;
+    padding-top: 10px;
+    color: aliceblue;
+    float: left;
+}
+.cancelled{
+    background-color:rgb(252, 0, 0,.5);
+    border: 2px;
+    border-radius: 5px;
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: 20px;
+    padding-top: 10px;
+    color: aliceblue;
+    float: right;
+}
 .container-header{
     text-align: center;
     font-size: 30px;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: bolder;
     opacity: 1;
+    color: white;
     
 }
 h1{
@@ -25,7 +53,7 @@ h1{
     opacity: 1;
 }
 .container-content{
-    margin: 10px 10px 10px 10px;
+    margin: 20px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     background-color: aliceblue;
     border: 2px white;
@@ -63,5 +91,8 @@ i{
     color: rgb(255, 187, 0);
 }
 .fa-check:hover{
+    color: rgb(34, 204, 0);
+}
+.fa-backward:hover{
     color: rgb(34, 204, 0);
 }

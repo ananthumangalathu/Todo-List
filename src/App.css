@@ -2,3 +2,11 @@ body{
   background-color: rgb(60, 115, 235);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.App{
+  display: block;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
