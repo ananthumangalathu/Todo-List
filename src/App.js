@@ -44,14 +44,12 @@ function App() {
   const handleEdit=(id)=>{
     setEdit(todos.filter(item=> item.id===id))
     setTodos(todos.filter(item=> item.id!==id))
-    const list=edit.map((obj)=>{
-      if(obj.id===id){
-
-        return obj.text
-      }
+    console.log(edit)
+    const list=edit.map((obj)=>{      
+      return (obj.text)
     })
     setTodo(list)
-    console.log(list)
+    
     
   }
 
